@@ -1,0 +1,118 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Top Section (Logo + Text) */
+.contact-top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.company-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.company-details {
+    text-align: left;
+}
+
+.company-details p {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.get-quote-btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.get-quote-btn:hover {
+    background-color: #555;
+}
+
+/* Bottom Section (Quick Links + Contact Info) */
+.contact-bottom-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+    background-color: #f0f0f0;
+    margin-top: auto;
+    /* Pushes the section up if there's space */
+}
+
+.quick-links,
+.contact-info {
+    width: 45%;
+}
+
+.quick-links h3,
+.contact-info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.quick-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.quick-links ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.quick-links ul li a:hover {
+    color: #555;
+}
+
+.contact-info p {
+    margin-bottom: 5px;
+}
+
+/* Social Media Icons */
+.social-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-icon {
+    font-size: 24px;
+    color: #333;
+}
+
+.social-icon:hover {
+    color: #555;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    width: 100%;
+    margin: 0;
+    /* Ensure no extra margin */
+}

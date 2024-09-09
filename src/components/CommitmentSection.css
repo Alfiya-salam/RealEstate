@@ -1,0 +1,76 @@
+/* CommitmentSection.css */
+
+.commitment-section {
+    padding: 50px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.commitment-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #100c4e;
+}
+
+/* Flex container for the commitment cards */
+.commitment-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+/* Individual commitment card styling */
+.commitment-card {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: calc(25% - 20px);
+    /* 4 cards per row */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.commitment-card:hover {
+    transform: translateY(-5px);
+}
+
+.commitment-card h3 {
+    font-size: 1.5rem;
+    color: #2b2b2b;
+    margin-bottom: 10px;
+}
+
+.commitment-card p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.commitment-card a {
+    font-size: 1rem;
+    color: #97a8bb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.commitment-card a:hover {
+    text-decoration: underline;
+}
+
+/* Media query to make it responsive */
+@media (max-width: 1024px) {
+    .commitment-card {
+        width: calc(50% - 20px);
+        /* 2 cards per row */
+    }
+}
+
+@media (max-width: 768px) {
+    .commitment-card {
+        width: calc(100% - 20px);
+        /* 1 card per row */
+    }
+}
