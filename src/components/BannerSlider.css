@@ -1,3 +1,4 @@
+/* General Banner Styling */
 .banner-slider {
     width: 100%;
     padding: 20px;
@@ -13,7 +14,6 @@
 .banner-image {
     width: 100%;
     height: 400px;
-    /* Increased height */
     object-fit: cover;
 }
 
@@ -24,7 +24,6 @@
     width: 100%;
     padding: 20px;
     background: rgba(0, 0, 0, 0.5);
-    /* Dark overlay for better readability */
     color: rgb(244, 248, 250);
     text-align: center;
 }
@@ -37,26 +36,77 @@
 .banner-content p {
     font-size: 16px;
 }
-.banner-image {
-    width: 100%;
-    height: 400px;
-    /* Increased height */
-    object-fit: cover;
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+    .banner-image {
+        height: 350px;
+        /* Slightly reduced height for tablets */
+    }
+
+    .banner-content h2 {
+        font-size: 22px;
+        /* Adjusted font size for tablets */
+    }
+
+    .banner-content p {
+        font-size: 15px;
+        /* Adjusted font size for tablets */
+    }
 }
 
 @media (max-width: 765px) {
     .banner-image {
         height: 250px;
-        /* Adjusted height for smaller screens */
+        /* Reduced height for smaller screens */
     }
 
     .banner-content h2 {
-        font-size: 22px;
+        font-size: 20px;
         /* Adjusted font size for smaller screens */
     }
 
     .banner-content p {
-        font-size: 16px;
+        font-size: 14px;
         /* Adjusted font size for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .banner-image {
+        height: 200px;
+        /* Further reduced height for very small screens */
+    }
+
+    .banner-content h2 {
+        font-size: 18px;
+        /* Adjusted font size for very small screens */
+    }
+
+    .banner-content p {
+        font-size: 13px;
+        /* Adjusted font size for very small screens */
+    }
+}
+
+/* Extra Small Devices (Portrait Phones) */
+@media (max-width: 360px) {
+    .banner-image {
+        height: 180px;
+        /* Reduced height for extra small devices */
+    }
+
+    .banner-content {
+        padding: 15px;
+        /* Reduced padding for extra small devices */
+    }
+
+    .banner-content h2 {
+        font-size: 16px;
+        /* Smaller font size */
+    }
+
+    .banner-content p {
+        font-size: 12px;
     }
 }

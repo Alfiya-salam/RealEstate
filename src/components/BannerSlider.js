@@ -1,36 +1,31 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';  // Swiper core styles
-import 'swiper/css/pagination';  // Pagination module styles
-import 'swiper/css/navigation';  // Navigation module styles
+import 'swiper/css';  
+import 'swiper/css/pagination';  
+import 'swiper/css/navigation'; 
 import { Pagination, Navigation } from 'swiper/modules';
-import './BannerSlider.css'; // Import your custom CSS for styling
+import './BannerSlider.css'; 
 
 const BannerSlider = () => {
     const bannerItems = [
         {
             title: 'Limited Offers',
-            description: 'Discover Your Next Home: Stylish Rentals for Every Lifestyle',
-            image: '/images/Banner.png',  // Replace this with your image path
+            image: '/images/Banner.png',  
         },
         {
-            title: 'Home For Rents',
-            description: 'Explore Our Range of Beautiful Rental Homes and Find Your New Sanctuary',
+            title: 'Rentals',
             image: '/images/Banner2.png',
         },
         {
-            title: 'Design Plan',
-            description: 'Design modern Homes to showcase your Creativity!',
-            image: '/images/Banner3.png',
+          title: 'Discover Your Next Home Today',
+          image: '/images/Banner3.png',
         },
         {
-            title: 'Sold',
-            description: 'Houses',
+            title: 'Find Your Perfect Property',
             image: '/images/Banner4.png',
         },
         {
-            title: 'Available Flats: Your Next Home Awaits',
-            description: 'Explore our selection of modern and comfortable flats, designed to fit your lifestyle and budget. Find the perfect space to call home today!',
+             title:'Find Your Perfect Property',
             image: '/images/Banner5.png',
         },
         
