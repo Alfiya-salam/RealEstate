@@ -6,6 +6,7 @@ import Services from './components/Services';
 import Query from './components/Query';
 import Contact from './components/Contact';
 import CommitmentSection from './components/CommitmentSection';
+import Banner from './components/BannerSlider';  // Correct the import here
 
 function App() {
   return (
@@ -13,8 +14,8 @@ function App() {
       <Navbar />
       <About />
       <Services />
-      {/* Adding the CommitmentSection below the Services section */}
       <CommitmentSection />
+      <Banner />   {/* Add Banners here */}
       <Query />
       <Contact />
     </div>

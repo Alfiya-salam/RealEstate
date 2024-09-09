@@ -18,6 +18,7 @@
     margin: 0 auto;
 }
 
+
 .service-box {
     background-color: #f9f9f9;
     padding: 2rem;
@@ -46,5 +47,19 @@
 @media (max-width: 768px) {
     .service-box {
         padding: 1.5rem;
+    }
+}
+/* Services Section */
+@media (max-width: 765px) {
+    .services-section {
+        padding: 2rem;
+    }
+
+    .service-box {
+        padding: 1rem;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
     }
 }

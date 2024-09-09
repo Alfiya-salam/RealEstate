@@ -116,3 +116,10 @@ body {
     margin: 0;
     /* Ensure no extra margin */
 }
+/* Footer Section */
+@media (max-width: 765px) {
+    .footer {
+        padding: 20px;
+        font-size: 14px;
+    }
+}
