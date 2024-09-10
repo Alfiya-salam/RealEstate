@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/rentalWebsite/static/css/main.5929809a.css",
-    "main.js": "/rentalWebsite/static/js/main.bf9bebaf.js",
-    "static/js/453.419a5d54.chunk.js": "/rentalWebsite/static/js/453.419a5d54.chunk.js",
-    "index.html": "/rentalWebsite/index.html",
-    "main.5929809a.css.map": "/rentalWebsite/static/css/main.5929809a.css.map",
-    "main.bf9bebaf.js.map": "/rentalWebsite/static/js/main.bf9bebaf.js.map",
-    "453.419a5d54.chunk.js.map": "/rentalWebsite/static/js/453.419a5d54.chunk.js.map"
+    "main.css": "/rental/static/css/main.5929809a.css",
+    "main.js": "/rental/static/js/main.be3a5767.js",
+    "static/js/453.419a5d54.chunk.js": "/rental/static/js/453.419a5d54.chunk.js",
+    "index.html": "/rental/index.html",
+    "main.5929809a.css.map": "/rental/static/css/main.5929809a.css.map",
+    "main.be3a5767.js.map": "/rental/static/js/main.be3a5767.js.map",
+    "453.419a5d54.chunk.js.map": "/rental/static/js/453.419a5d54.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5929809a.css",
-    "static/js/main.bf9bebaf.js"
+    "static/js/main.be3a5767.js"
   ]
 }
